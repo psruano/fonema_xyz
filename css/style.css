@@ -1,0 +1,268 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+
+*, 
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background:#F0F0F0;
+	color: #b3b9bf;
+	font-family: "Arvo";
+	
+	padding: 0;
+	margin: 0;
+
+}
+
+a {
+	color: #212121 ;
+	text-decoration: none;
+}
+
+a:hover {
+
+	color:#cccccc;
+
+}
+
+#encabezado {
+	
+	max-width: 1445px;
+	min-width: 350px;
+	height: 60px;
+	margin-left: 12%;
+	margin-right: 12%;
+	border-bottom: solid 1px #707070;
+}
+
+ #encabezado h1{
+ 	margin: 30px 0px 10px 0px; 
+ 	color: #1a1a1a;
+ 	font-size: 12px;
+ 	display: block;
+ 	float: right;
+
+ }
+
+ #barradenavegacion{
+
+ 	margin-left: 12%;
+	margin-right: 12%;
+ 	height: 40px;
+ 	border-bottom: solid 1px #707070;
+ }
+
+ #barradenavegacion ul{
+
+ 	height: 20px;
+ 	display: block;
+ 	float: left;
+ 	font-size: 12px;
+ 	line-height: 100%;
+	color: #212121;
+	padding: 10px 0px;
+	max-width: 1445px;
+	min-width: 350px;
+
+
+ }
+
+  #barradenavegacion li{
+
+padding: 0px;
+width: 120px;
+margin: 4px;
+
+ }
+
+#footer {
+
+	border-top: solid 1px #707070;
+	max-width: 1445px;
+	min-width: 350px;
+	height: 40px;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 12%;
+	margin-right: 12%;
+	color:  #707070;
+}
+
+#txtfooter{
+
+	margin-top: 15px;
+}
+
+
+.contenedorPrincipal ul.cuadriculaPrincipal{
+
+	margin-left: 12%;
+	margin-right: 12%;
+	margin-top: 12px;
+	max-width: 1445px;
+	min-width: 350px;
+	text-align: center;
+}
+
+.contenedorPrincipal ul li {
+
+	display: inline-block;
+	width: 350px;
+	margin: 6px;
+}
+
+
+.contenedorPrincipal ul li figure {
+
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+}
+
+.contenedorPrincipal ul li figure img {
+	
+	display: block;
+	margin: 0;
+	width:100%;
+}
+
+
+ul.estiloEjemplo4  li figure figcaption {
+background-color: #707070;
+display: block;
+color: #212121;
+left: 0;
+margin: 0;
+opacity: 0;
+padding: 20px;
+position: absolute;
+
+-webkit-transition:  opacity 0.5s;
+-moz-transition:  opacity 0.5s;
+-ms-transition:  opacity 0.5s;
+transition:  opacity 0.5s;
+
+
+top: 0;
+width: 100%;
+height: 100%;
+}
+
+
+ul.estiloEjemplo4 li:hover figcaption {
+	opacity: 0.75;
+
+}
+
+.contenedorPrincipal ul li figure figcaption h3{
+	margin-top:115px;
+	font-size: 14px
+
+}
+
+.contenedorPrincipal ul li figure figcaption span{
+	display: block;
+	margin-top: 15px;
+	font-size: 12px
+
+}
+
+.contenedorPrincipal ul li figure figcaption a{
+	margin-top:30px;
+
+}
+
+
+/*ANIMACION 4_Zoom*/
+
+.contenedorPrincipal ul.estiloEjemplo4 figure img{
+
+}
+
+.contenedorPrincipal ul.estiloEjemplo4 li:hover img{
+
+}
+
+
+/*PROYECTOS*/
+
+.cajadetexto {
+
+
+color: #707070;
+width: 960px;
+margin: 0 auto;
+font-size: 13px;
+text-align: left;
+line-height: 130%;
+border-top: 10px;
+
+
+}
+
+.cajadetexto h3 {
+
+
+display: block;
+font-size: 15px;
+border-bottom: 10px;
+line-height: 200%;
+color: #1a1a1a;
+
+}
+
+.imagenesproy {
+
+	
+	margin: 0 auto;
+
+}
+
+.imagenesproy iframe{
+
+	display: block;
+	margin: auto;
+
+}
+
+
+
+.imagenesproy img{
+
+	display: block;
+	margin-top: 10px;
+	margin: 10px auto;
+
+	max-width: 70%;
+	min-width: 320px;
+}
+	
+
+}
+
+@media screen and (max-width: 31.5em){
+
+	.cuadriculaPrincipal{
+		padding: 10px 10px 100px 10px;
+	}
+
+	.cuadriculaPrincipal li {
+		max-width: 250px;
+		width: 100%;
+	}
+
+.imagenesproy img{
+
+	display: block;
+	margin: 10 auto;
+
+	max-width: 100%;
+	min-width: 320px;
+}
+
+
+}
